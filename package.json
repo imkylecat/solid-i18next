@@ -1,0 +1,30 @@
+{
+  "name": "solid-i18next",
+  "version": "1.0.0",
+  "description": "i18next for solid.js",
+  "main": "src",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imkylecat/solid-i18next.git"
+  },
+  "keywords": [
+    "solid"
+  ],
+  "author": {
+    "name": "imkylecat",
+    "email": "kyle@kylerich.dev",
+    "url": "https://kylerich.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imkylecat/solid-i18next/issues"
+  },
+  "homepage": "https://github.com/imkylecat/solid-i18next#readme",
+  "dependencies": {
+    "solid-js": "^1.6.9"
+  }
+}
