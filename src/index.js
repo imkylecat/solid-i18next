@@ -1,4 +1,4 @@
-import { createSignal, onCleanup } from "solid-js";
+import { createSignal } from "solid-js";
 let i18nextInstance;
 
 export const initSolidI18next = {
