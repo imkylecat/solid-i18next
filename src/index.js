@@ -19,7 +19,6 @@ export const useTranslation = (ns) => {
             setLanguage(i18nextInstance.language);
             i18nextInstance.on("loaded", () => setLanguage(i18nextInstance.language));
             i18nextInstance.on("languageChanged", setLanguage);
-            onCleanup(setLanguage);
 
             return translation;
         }
